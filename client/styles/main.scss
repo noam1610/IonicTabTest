@@ -1,0 +1,112 @@
+@import "../../bower_components/ionic/scss/ionic.scss";
+.parent {
+    position: relative;
+}
+
+.child {
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    width: 75px;
+    height: 75px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    >>>>>>> d953b61... feat(test)
+}
+
+.child {
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    width: 75px;
+    height: 75px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child {
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    width: 75px;
+    height: 75px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jeu {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    height: 12em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+<<<<<<< HEAD
+=======
+.jeu {
+ 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    height: 12em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: white; 
+}
+
+h5 {
+    color: white; 
+}
+
+
+
+>>>>>>> 2d92b62... feat(app): Commit to save the actual code
+div {
+    margin: auto;
+}
+
+.icon.icon-large {
+    font-size: 5em;
+}

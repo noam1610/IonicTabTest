@@ -1,0 +1,14 @@
+{
+  "generator-mcfly": {
+    "filenameCase": "camel",
+    "filenameSuffix": false,
+    "appname": "ionicTabTest",
+    "clientFolder": "client",
+    "ionic": true,
+    "famous": false,
+    "ngCordova": true,
+    "fontawesome": false,
+    "bootstrap": false,
+    "material": false
+  }
+}

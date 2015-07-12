@@ -1,0 +1,59 @@
+<ion-view title="Profile">
+    <ion-content "overflow-scroll=true" class="has-header" style="background:#F0F0F0; ">
+        <div ng-init="tab=1">
+            <div class="parent" style="background-image: url('images/app/collage2.jpg') ;">
+                <div style="padding-top : 1em;">
+                    <img class="image center" ng-src="images/app/bush.jpg">
+                    <h3 class="center" style="margin: auto;  text-align: center;">Noam</h3>
+                    <h4 class="center" style="margin: auto;  text-align: center;">Fullname</h4>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <button style="padding: 1em; font-size: 75%; " class="col button button-dark" ng-click="tab = 1">
+                <i class="icon ion-trophy"></i> Activity
+            </button>
+            <button style="padding: 1em; font-size: 75%;" class="col button button-dark" ng-click="tab = 2">
+                <i class="icon ion-ios-people"></i> Followers
+            </button>
+            <button style="padding: 1em; font-size: 75%;" class="col button button-dark" ng-click="tab = 3">
+                <i class="icon ion-images"></i> Pictures
+            </button>
+        </div>
+
+        <div style="padding : 1em;" ng-show="tab === 1">
+            <h3>My activity</h3>
+            <div class="list card">
+
+                <div class="item item-avatar">
+                    <img src="images/app/navy.jpeg">
+                    <h2>#Navy - 1rst place - 16/10/2014</h2>
+                    <p>Won 32 points</p>
+                </div>
+            </div>
+        </div>
+        <div style="padding : 1em;" ng-show="tab === 2">
+            <h3>My Followers</h3>
+            <div class="list card">
+
+                <div class="item item-avatar">
+                    <img src="images/app/bush.jpg">
+                    <h2>#Bush - 32 participations</h2>
+                    <p>1231 points</p>
+                </div>
+            </div>
+        </div>
+        <div style="padding : 1em;" ng-show="tab === 3">
+            <h3>My pictures</h3>
+            <div class="list card">
+                <div class="item item-thumbnail-left">
+                    <img src="images/app/navy.jpeg">
+                    <h2>#Navy - 1rst place - 16/10/2014</h2>
+                    <p>Won 32 points</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
