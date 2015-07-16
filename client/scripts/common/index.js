@@ -18,10 +18,6 @@ module.exports = function(namespace) {
         function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
             $ionicConfigProvider.views.transition('ios');
             $ionicConfigProvider.tabs.position('bottom');
-<<<<<<< HEAD
-=======
-
->>>>>>> 2d92b62... feat(app): Commit to save the actual code
             $stateProvider
                 .state('tab', {
                     url: '/tab',
@@ -62,11 +58,7 @@ module.exports = function(namespace) {
                 });
             $urlRouterProvider.otherwise('tab/account');
         }
-<<<<<<< HEAD
-    ]); 
-=======
     ]);
->>>>>>> 2d92b62... feat(app): Commit to save the actual code
 
     app.run(function() {
         if (window.ionic) {
@@ -170,9 +162,6 @@ module.exports = function(namespace) {
             };
         }
     });
-<<<<<<< HEAD
 
-=======
->>>>>>> 2d92b62... feat(app): Commit to save the actual code
     return app;
 };
